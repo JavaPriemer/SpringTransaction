@@ -18,7 +18,7 @@ public class BankServiceImpl implements BankService {
 		this.dao = dao;
 	}
 
-
+//service method
 	@Transactional(propagation=Propagation.REQUIRED)
 	public boolean transferMoney(int srcNo, int desNo, int amt) {
 		int result1=0,result2=0;
